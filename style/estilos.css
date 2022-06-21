@@ -61,7 +61,13 @@ a{
 }
 @media (max-width:480px){
 
+    .navbar-brand{
+
+        font-family: 'Rubik', sans-serif;
+    font-size:40px;
+    margin-left: 20px;
     
+    }
 body{
     display: grid;
     grid-template-areas: 
@@ -71,48 +77,7 @@ body{
 grid-template-columns: 100%;
 }
 
-header{
-grid-area: header;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
 
-.titulogo{
-
-    display: flex;
-    align-items: center;
-    margin: 10px 0 0 0;
-    font-family: 'Rubik', sans-serif;
-    font-size:20px;
-
-}
-
-
-
-nav{
-    color: white;
-    margin: 5px 0 10px 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-nav ul li {
-   display: inline-block;
-   margin: 0 7px ;
-   text-align: center;
-}
-
-
- nav ul li a{
-     
-     
-    font-size: 12px;
- }
  
 
 main{
@@ -329,57 +294,16 @@ border-radius: 90px;
 
 @media (min-width:481px){
 
+    .navbar-brand{
 
-
-header{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-
-.titulogo{
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
+        font-family: 'Rubik', sans-serif;
+    font-size:40px;
+    margin-left: 20px;
     
-}
-
-.titulogo a img{
-    width: 130%;
-}
-
-.titulogo p{
-    font-family: 'Rubik', sans-serif;
-    margin-left: 50px;
-    font-size:50px;
-    letter-spacing: 5px;
-}
-nav ul li{
-    margin-right: 40px;
-    display: inline-block;
-    padding: 8px 16px;
-
-
-}
-
-nav ul li a{
-    border-radius: 10px;
-    transition: all 0.4s linear;
-    padding: 8px 16px;
-
-
-}
-
-nav ul li a:hover{
-    background: rgb(29, 28, 28);
-
-}
+    }
 
 main{
-    margin: 30px 0px 30px 0px;
+    margin: 135px 0px 30px 0px;
     
 }
 
