@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Karla:ital,wght@1,800&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Karla:ital,wght@1,800&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: rgb(21, 19, 19);
+    background-color: #0a1a2a;
     color: white;
     font-family: 'Open Sans', sans-serif;
 
@@ -51,7 +51,7 @@ h2{
     border: solid 2px white;
     padding: 20px 0;
     border-radius: 20px;
-    background-color: rgba(12, 12, 12, 0.878);
+    background-color: #0a141d;
 }
 
 
@@ -59,6 +59,55 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.pie-pagina .grupo-2{
+    background-color: #26394d;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+.pie-pagina{
+    
+    background-color: #15293a;
+}
+
+.pie-pagina .grupo-1{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px ;
+    padding: 45px 0;
+}
+
+.pie-pagina .grupo-1 .box p{
+
+    margin-bottom:25px ;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.pie-pagina .grupo-1 .box .red-social a{
+
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+nav{
+    background-color: #081017;
+}
+
+
 @media (max-width:480px){
 
     .navbar-brand{
@@ -113,45 +162,6 @@ main{
     
 }
 
-
-
- 
-footer{
-    margin-top: 50px;
-grid-area: footer;
-    font-family: 'Hind', sans-serif;
-    background-color: rgb(159, 170, 179);
-    display: grid;
-    grid-template-areas: 
-    " socios mapa"
-    "redes redes";
-}
-
-.socios{
-    grid-area: socios;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#mapa{
-    grid-area: mapa;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.redes {
-    grid-area: redes;
-    text-align: center;
-    
-}
-
-.redes div{
-    display: inline-block;
-    margin: 0 10px 0 10px;
-   
-}
 
 .cursos{
     background-color: rgb(14, 14, 14);
@@ -310,7 +320,7 @@ main{
 
 .sect1{
     
-    background-color: rgba(12, 12, 12, 0.878);
+    background-color: #0a141d;
     display: grid;
     margin: 20px 50px;
     grid-template-areas: 
@@ -340,27 +350,7 @@ main{
     width: 500px;
 }
 
-footer{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: grey;
-}
 
-
-
-footer div {
-    display: inline-block;
-}
-
- 
-.cont2{
-
-    
-
-}
 .cursos{
     margin: 100px 100px 100px 100px;
     display: grid;
@@ -382,7 +372,7 @@ footer div {
     " figt img";
     grid-template-columns: 50% 50%;
     justify-items: center;
-    background-color: rgba(12, 12, 12, 0.878);
+    background-color:  #0a141d;
 
 }
 
@@ -468,7 +458,7 @@ border-radius: 90px;
     margin: 30px 0 10px 0;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .catalogo p{
@@ -482,6 +472,9 @@ border-radius: 90px;
 .productosDiv{
 
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 
 }
 
@@ -508,7 +501,8 @@ border-radius: 90px;
 }
 
 #cuerda{
-    background-color: rgb(14, 13, 13);
+    background-color:  #0a141d;
+    padding: 0px 0 40px 0;
     
 }
 
@@ -548,6 +542,13 @@ border-bottom: solid 1px white;
     margin-right: 25px;
 
 }
+
+
+.pie-pagina .grupo-1 .box .red-social a:hover{
+    color: rgb(3, 100, 100);
+}
+
+
 
 
 
