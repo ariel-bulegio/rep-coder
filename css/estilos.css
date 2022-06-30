@@ -1,0 +1,271 @@
+.pie-pagina {
+  background-color: #15293a; }
+  .pie-pagina .grupo-1 {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px 0; }
+    .pie-pagina .grupo-1 .box p {
+      margin-bottom: 25px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+    .pie-pagina .grupo-1 .box .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: #0d2033;
+      text-align: center;
+      transition: all 300ms ease; }
+      .pie-pagina .grupo-1 .box .red-social a:hover {
+        color: #384d63; }
+  .pie-pagina .grupo-2 {
+    background-color: #26394d;
+    padding: 15px 10px;
+    text-align: center; }
+
+.cursos {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 0; }
+  @media screen and (max-width: 480px) {
+    .cursos img {
+      width: 80%;
+      margin: 5px 0 15px 0; }
+    .cursos .fCursos {
+      margin: 0 45px 25px 45px; } }
+
+#curso {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 0; }
+  #curso img {
+    width: 80%;
+    margin: 5px 0 15px 0; }
+  #curso .fCursos {
+    margin: 0 45px 25px 45px; }
+
+.cursos {
+  margin: 100px 100px 100px 100px;
+  display: grid;
+  grid-template-areas: "img h3" "img figt";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-items: start; }
+  @media screen and (min-width: 481px) {
+    .cursos h3 {
+      border: solid 1px white;
+      background-color: #020233;
+      grid-area: h3;
+      display: flex;
+      align-items: center;
+      padding: 20px 20px;
+      border-radius: 20px; }
+    .cursos img {
+      width: 70%;
+      grid-area: img;
+      border-radius: 20px; }
+    .cursos .fCursos {
+      grid-area: figt; } }
+
+@media screen and (min-width: 481px) {
+  #curso {
+    padding: 30px 90px 30px 13%;
+    display: grid;
+    grid-template-areas: " h3 img" " figt img";
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    background-color: #0a141d; }
+    #curso h3 {
+      background-color: white;
+      color: #0e0e5e;
+      margin-top: 124px;
+      margin-bottom: 124px;
+      grid-area: h3;
+      display: flex;
+      align-items: flex-end;
+      border: solid 1px #0e0e5e;
+      padding: 15px;
+      border-radius: 20px; }
+    #curso img {
+      width: 70%;
+      grid-area: img;
+      border-radius: 20px; }
+    #curso .fCursos {
+      grid-area: figt; } }
+
+nav {
+  background-color: #081017; }
+
+.navbar-brand {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  margin-left: 20px; }
+
+.contNos {
+  text-align: center; }
+  .contNos h2 {
+    margin: 10px 0 10px 0; }
+  .contNos .nosotrosCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contNos .nosotrosCenter .imgNos {
+      margin-top: 30px;
+      width: 90%; }
+  .contNos .nosotrosCenter2 div {
+    background-color: #0e0e0e;
+    margin: 30px 10px 55px 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: start;
+    padding: 20px; }
+
+.catalogo {
+  background-color: #252424;
+  border-bottom: solid 1px white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  margin: 40px 0 20px 0;
+  display: flex;
+  justify-content: space-around; }
+
+#viento {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #viento .productosDiv div {
+    margin: 30px 30px; }
+
+#cuerda {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #cuerda .productosDiv div {
+    margin: 30px 30px; }
+
+#percucion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #percucion .productosDiv div {
+    margin: 30px 30px; }
+
+@media screen and (min-width: 481px) {
+  main .catalogo {
+    background-color: #252424;
+    border-bottom: solid 1px white;
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px; }
+    main .catalogo p {
+      transition: 0.5s linear; }
+      main .catalogo p:hover {
+        transform: scale(1.4); }
+  main .productosDiv {
+    display: flex;
+    flex-wrap: wrap; }
+  main #cuerda {
+    background-color: #0a141d;
+    padding: 0px 0 40px 30px; } }
+
+.titleform {
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  justify-content: center; }
+  .formulario article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #19194d;
+    padding: 80px 50px;
+    border: 5px outset #020220;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 90px; }
+
+* {
+  margin: 0;
+  padding: 0%; }
+
+body {
+  background-color: #0a1a2a;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  margin: 50px 10px 0 10px;
+  text-align: center;
+  margin-bottom: 40px; }
+
+h2 {
+  text-align: center;
+  text-decoration: none;
+  border: solid 2px white;
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: #0a141d; }
+
+h3 {
+  font-size: x-large;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  text-align: center;
+  transition: all 0.4s linear; }
+  h3:hover {
+    transform: scale(1.2); }
+
+h4 {
+  font-size: large;
+  margin-top: 10px; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+main {
+  margin-top: 170px; }
+  main .sect1 {
+    background-color: rgba(12, 12, 12, 0.878);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 40px 20px 40px; }
+    main .sect1 h2 {
+      margin-bottom: 20px; }
+  main figure .imagen {
+    width: 100%; }
+
+main {
+  margin: 135px 0px 30px 0px; }
+  @media screen and (min-width: 481px) {
+    main .sect1 {
+      background-color: #0a141d;
+      display: grid;
+      margin: 20px 50px;
+      grid-template-areas: "titulo titulo" "div p"; }
+      main .sect1 .gridh2 {
+        grid-area: titulo;
+        margin-bottom: 30px; }
+      main .sect1 .seph2I {
+        grid-area: p;
+        margin: 30px 110px 0 100px; }
+      main .sect1 .gridDiv {
+        margin: 0 0 40px 100px;
+        grid-area: div; }
+        main .sect1 .gridDiv .imagen {
+          width: 500px; } }
