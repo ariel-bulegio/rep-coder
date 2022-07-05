@@ -1,21 +1,29 @@
+
+@mixin sizeandMarg($size,$marg) {
+    width: $size;
+    margin: $marg;
+}
+
+
 .cursos{
-    
-    background-color: rgb(14, 14, 14);
+    @media screen and(max-width:480px) {
+    background-color: $fondo-section;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 45px 0;
-    @media screen and (max-width:480px) {
-
+   
+    
+ 
     img{
-        width: 80%;
-        margin: 5px 0 15px 0;
+        @include sizeandMarg ( 80%, 5px 0 15px 0)
     }
     .fCursos{
         margin: 0 45px 25px 45px;
     }
 }
 }
+
 #curso{
     background-color: rgb(14, 14, 14);
     display: flex;
@@ -24,18 +32,16 @@
     margin: 45px 0;
 
     img{
-        width: 80%;
-        margin: 5px 0 15px 0;
+        @include sizeandMarg ( 80%, 5px 0 15px 0);
     }
     .fCursos{
         margin: 0 45px 25px 45px;
     }
     }
 
-
     
 .cursos{
-    
+    @media screen and (min-width:481px) {
     margin: 100px 100px 100px 100px;
     display: grid;
     grid-template-areas: 
@@ -44,7 +50,7 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50% ;
     justify-items: start;
-    @media screen and (min-width:481px) {
+    
     h3{
         border: solid 1px white;
         background-color: rgb(2, 2, 51);
@@ -65,8 +71,8 @@
     .fCursos{
         grid-area: figt;
     }
-}  
     
+}
 }
 
 #curso{
@@ -78,7 +84,7 @@
     " figt img";
     grid-template-columns: 50% 50%;
     justify-items: center;
-    background-color:  #0a141d;
+    background-color:  $fondo-inicioSect;
     h3{
         background-color: white;
         color: rgb(14, 14, 94);

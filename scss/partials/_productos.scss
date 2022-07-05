@@ -22,31 +22,13 @@
 }
    
 
-
-
 #cuerda{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .productosDiv{
-        div{
-            margin: 30px 30px;
-        }
-    }
-
+    @extend #viento;
+    
 }
 
-
-
 #percucion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .productosDiv{
-        div{
-            margin: 30px 30px;
-        }
-    }
+    @extend #viento;
     
 }
     
@@ -83,7 +65,7 @@ main{
 
 
 #cuerda{
-    background-color:  #0a141d;
+    background-color:  $fondo-inicioSect;
     padding: 0px 0 40px 30px;
     
 }

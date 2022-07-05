@@ -23,19 +23,19 @@
       text-align: center;
       transition: all 300ms ease; }
       .pie-pagina .grupo-1 .box .red-social a:hover {
-        color: #384d63; }
+        color: #26394d; }
   .pie-pagina .grupo-2 {
     background-color: #26394d;
     padding: 15px 10px;
     text-align: center; }
 
-.cursos {
-  background-color: #0e0e0e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 45px 0; }
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  .cursos {
+    background-color: #0e0e0e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 0; }
     .cursos img {
       width: 80%;
       margin: 5px 0 15px 0; }
@@ -54,14 +54,14 @@
   #curso .fCursos {
     margin: 0 45px 25px 45px; }
 
-.cursos {
-  margin: 100px 100px 100px 100px;
-  display: grid;
-  grid-template-areas: "img h3" "img figt";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  justify-items: start; }
-  @media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
+  .cursos {
+    margin: 100px 100px 100px 100px;
+    display: grid;
+    grid-template-areas: "img h3" "img figt";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: start; }
     .cursos h3 {
       border: solid 1px white;
       background-color: #020233;
@@ -141,25 +141,11 @@ nav {
   display: flex;
   justify-content: space-around; }
 
-#viento {
+#viento, #cuerda, #percucion {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  #viento .productosDiv div {
-    margin: 30px 30px; }
-
-#cuerda {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  #cuerda .productosDiv div {
-    margin: 30px 30px; }
-
-#percucion {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  #percucion .productosDiv div {
+  #viento .productosDiv div, #cuerda .productosDiv div, #percucion .productosDiv div {
     margin: 30px 30px; }
 
 @media screen and (min-width: 481px) {
@@ -240,7 +226,6 @@ a {
 main {
   margin-top: 170px; }
   main .sect1 {
-    background-color: rgba(12, 12, 12, 0.878);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,11 +235,10 @@ main {
   main figure .imagen {
     width: 100%; }
 
-main {
-  margin: 135px 0px 30px 0px; }
-  @media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
+  main {
+    margin: 135px 0px 30px 0px; }
     main .sect1 {
-      background-color: #0a141d;
       display: grid;
       margin: 20px 50px;
       grid-template-areas: "titulo titulo" "div p"; }
@@ -269,3 +253,12 @@ main {
         grid-area: div; }
         main .sect1 .gridDiv .imagen {
           width: 500px; } }
+
+.color-1 {
+  background-color: #062038; }
+
+.color-2 {
+  background-color: #111f2f; }
+
+.color-3 {
+  background-color: #051322; }
