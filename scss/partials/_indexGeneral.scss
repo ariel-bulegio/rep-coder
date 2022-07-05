@@ -72,16 +72,23 @@ a{
             h2{
                 margin-bottom: 20px;
             }
-        }
-        figure{
-            .imagen{
-
-                width: 100%;
-                
+            figure{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                .imagen{
+    
+                    width: 90%;
+                }   
+            }
+            p{
+                margin: 10px 20px;
             }
             
+         
         }
-     
+        
 
   }
 

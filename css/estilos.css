@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap");
 .pie-pagina {
   background-color: #15293a; }
   .pie-pagina .grupo-1 {
@@ -106,10 +107,9 @@
 nav {
   background-color: #081017; }
 
-.navbar-brand {
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  margin-left: 20px; }
+.logo {
+  font-family: 'Kanit', sans-serif;
+  font-size: 250%; }
 
 .contNos {
   text-align: center; }
@@ -232,8 +232,14 @@ main {
     margin: 60px 40px 20px 40px; }
     main .sect1 h2 {
       margin-bottom: 20px; }
-  main figure .imagen {
-    width: 100%; }
+    main .sect1 figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .sect1 figure .imagen {
+        width: 90%; }
+    main .sect1 p {
+      margin: 10px 20px; }
 
 @media screen and (min-width: 481px) {
   main {
