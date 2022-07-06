@@ -162,7 +162,8 @@ nav {
         transform: scale(1.4); }
   main .productosDiv {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
   main #cuerda {
     background-color: #0a141d;
     padding: 0px 0 40px 30px; } }
@@ -241,7 +242,7 @@ main {
     main .sect1 p {
       margin: 10px 20px; }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 1100px) {
   main {
     margin: 135px 0px 30px 0px; }
     main .sect1 {
