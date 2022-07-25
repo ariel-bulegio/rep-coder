@@ -103,7 +103,8 @@ main{
 
     .sect1{
     
-        
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
         display: grid;
         margin: 20px 50px;
         grid-template-areas: 
@@ -116,7 +117,7 @@ main{
         }
         .seph2I{
             grid-area: p;
-            margin: 30px 110px 0 100px;
+            margin: 0px 110px 130px 100px;
         }
         .gridDiv{
             margin:0 0 40px 100px;
@@ -141,3 +142,4 @@ $mapa:(
         background-color: $color;
     }
 }
+
